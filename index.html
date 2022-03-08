@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Tintalizu</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.png" />
+        <nav class="menu">
+            <button class="toggle"> <i class="fa-solid fa-bars"></i></button>
+            <ul class="menu-item">
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#preguntas">Preguntas Frecuentes</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container main">
+        <!--<h3>Bienvenido a Tintalizú</h3>-->
+        <p class="py-1">Retratos de animalitos</p>
+        <p class="py-1">Cuadros y tazones pintados a mano</p>
+        <p class="py-1">Envíos a todo Chile desde Temuco</p>
+    </div>
+    <div class="container" id="productos">
+        <div class="row">
+            <div class="col-30 card">
+                <h5>Destacado</h5>
+                <h2 class="py-4">Tazón con retrato</h2>
+                <p class="">
+                    Cada tazón incluye el nombre del animalito y un adorno pequeño a elección:
+                </p>
+                <div class="row py-4">
+                    <div class="col">
+                        <div class="prices m-auto">
+                            <div class="now">$14.000</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-70">
+                <img src="img/maintazas.jpg" class="imgMainCup">
+            </div>
+        </div>
+    </div>
+
+    <div class="container products">
+
+        <div class="imgMainFrame image1" id="show-modal1">
+            <div class="prices">
+                <h6 class="">Un tazón con <br />2 retratos</h6>
+                <p class="now">$19.000</p>
+            </div>
+        </div>
+        <div class="imgMainFrame image2" id="show-modal2">
+            <div class="prices">
+                <h6 class="">Un tazón con <br />3 retratos</h6>
+                <p class="now">$25.000</p>
+            </div>
+        </div>
+        <div class="imgMainFrame image3" id="show-modal3">
+            <div class="prices">
+                <h6 class="">Cuadro 18x13cm <br />retrato individual</h6>
+                <p class="now">$17.500</p>
+            </div>
+        </div>
+        <div class="imgMainFrame image4" id="show-modal4">
+            <div class="prices">
+                <h6 class="">Cuadro 30x25cm<br />hasta 2 retratos</h6>
+                <p class="now">$29.500</p>
+            </div>
+        </div>
+        <div class="imgMainFrame image5" id="show-modal5">
+            <div class="prices">
+                <h6 class="">Cuadro 40x30cm<br />hasta 3 retratos</h6>
+                <p class="now">$40.000</p>
+            </div>
+        </div>
+        <div class="imgMainFrame image6" id="show-modal6">
+            <div class="prices">
+                <h6 class="">Cuadro 50x40cm<br />hasta 6 retratos</h6>
+                <p class="now">$55.000</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container three" id="preguntas">
+        <div class="item">
+            <h5 class="btn-item py-2">Como pedir un producto</h5>
+            <div class="item-content">
+                <ol>
+                    <li>Contáctame por Instagram.</li>
+                    <li>Elige el tamaño del cuadro o modelo de tazón, pueden
+                        varíar según disponibilidad.</li>
+                    <li>Envía las fotitos de referencia al correo <strong>tintalizu@gmail.com</strong>,
+                        fotos sin filtros, de cerca y a la altura del animalito.</li>
+                    <li>Confirmación del pedido, al ser un trabajo 100% personalizado
+                        se solicitará el <strong>pago total</strong> del valor del producto para reservar su cupo.</li>
+                </ol>
+
+                <h6 class="py-2">¿Con cuanto tiempo de anticipación debo pedir?</h6>
+                <p>
+                    Mi método de trabajo es a través de cupos, por lo que siempre dependerá de la disponibilidad, suele
+                    variar entre 2 a 3 semanas.
+                </p>
+                <h6 class="py-2">¿Por qué medios se entregan los productos?</h6>
+                <ul>
+                    <li>En Temuco retiro en local.</li>
+                    <li>Se envía a todo Chile por Chilexpress en sucursal, siempre por
+                        pagar en destino.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="item">
+            <h5 class="btn-item py-2">Cuidados para el tazón</h5>
+            <div class="item-content">
+                <h4>El tazón puede ser utilizado con bebidas frías o calientes, pero se debe considerar:</h4>
+                <ul>
+                    <li>Lavar suavemente la pintura
+                        con agua fría o tibia, jabón de
+                        loza y esponja.</li>
+                    <li>No calentar en microondas.</li>
+                    <li>No dejar la parte pintada en
+                        remojo durante horas.</li>
+                    <li>No raspar la pintura con objetos
+                        duros.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer class="p-2" id="contacto">
+        <div class="logo">
+            <img src="img/tintalizulogo.png" width="200px" class="logo" />
+        </div>
+        <div>
+            <p class="footer-text">Tintalizú es un emprendimiento artístico de Temuco creado por <strong>Liced
+                    Vargas</strong>.</p>
+            <hr>
+            <p class="footer-text"><i class="fa-brands fa-instagram"></i> tintalizu_arte / <i
+                    class="fa-solid fa-envelope"></i>
+                tintalizu@gmail.com</p>
+        </div>
+    </footer>
+</body>
+
+</html>
