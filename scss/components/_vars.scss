@@ -1,0 +1,21 @@
+$primary-color: #02adfe;
+$secondary-color: #0990f6;
+$terceary-color: #00355e;
+$font-color: rgb(240, 240, 240);
+$pink-color:#eac1bf;
+$celeste-color:#ade5ff;
+$prices-color: rgb(255, 244, 194);
+
+$box-shadow: 0 2px 10px 0 rgba(0,0,0,0.6);
+
+$limit: 4;
+$unit: 0.5rem;
+
+$breakpoints:(
+    muypequeña: 320px,
+    pequeño: 480px,
+    normal: 768px,
+    grande: 960px,
+    muygrande: 1024px,
+    gigante: 1328px
+)

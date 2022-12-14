@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Tintalizu</title>
+    <meta name="keywords" content="pintura,mascotas,retrato,tazones,llaveros,cuadros,personalizado">
+    <meta name="description" content="Retratos pintados a mano de tus mascotas.">
+    <meta name="author" content="Rodrigo Rivera">
+    <link rel="icon" href="./img/icon.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+    <header class="header">
+         <nav class="nav flexBetween">
+            <img class="nav__logo" src="img/logo.png" alt="Logo Tintalizu" />
+            <button class="nav__toggle" id="toggle"> <i class="nav__toggle--icon fa-solid fa-bars"></i></button>
+            <ul class="nav__menu" id="menu">
+                <li>
+                    <a href="#" class="nav__menu--link nav__menu--off">Catálogo</a>
+                    <ul class="productsNav" id="list">
+                        <li><a class="productsNav__vertical" href="#pictures">Cuadros</a></li>
+                        <li><a class="productsNav__vertical" href="#bowls">Tazones</a></li>
+                        <li><a class="productsNav__vertical" href="#keys">Llaveros</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav__menu--link" href="#info">Consultas</a></li>
+                <li><a class="nav__menu--link" href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main">
+        <div>
+            <p class="main__text py-2">Bienvenido a Tintalizú</p>
+            <p class="main__text">Te invitamos a revisar nuestro catálogo</p>
+        </div>
+        <div class="main__icons">
+            <i class="fas fa-paw paw-1"></i>
+            <i class="fas fa-paw paw-2"></i>
+            <i class="fas fa-paw paw-3"></i>
+            <i class="fas fa-paw paw-4"></i>
+            <i class="fas fa-paw paw-5"></i>
+            <i class="fas fa-paw paw-6"></i>
+        </div>
+    </section>
+
+    <article class="catalog" id="pictures">
+        <h2 class="catalog__title py-2">Cuadros</h2>
+        <section class="catalog__elements">
+            <div class="card">
+                <p class="card__title">18x13cm 1 animalito</p>
+                <p class="card__prices m-auto">$18.500 </p>
+                <img class="card__img" src="img/products/picture1.jpg" loading="lazy" alt="tazón con retrato">
+            </div>
+            <div class="card">
+                <p class="card__title">A4 (21x29,7cm) 1 a 2 animalitos</p>
+                <p class="card__prices m-auto">$27.500 </p>
+                <img class="card__img" src="img/products/picture2.jpg" loading="lazy" alt="tazón con 2 retratos">
+            </div>
+            <div class="card">
+                <p class="card__title">40x30cm 1 a 3 animalitos</p>
+                <p class="card__prices m-auto">$35.000 </p>
+                <img class="card__img" src="img/products/picture3.jpg" loading="lazy" alt="tazón con 3 retratos">
+            </div>
+            <div class="card">
+                <p class="card__title">50x40cm 1 a 6 animalitos</p>
+                <p class="card__prices m-auto">$58.000 </p>
+                <img class="card__img" src="img/products/picture4.jpg" loading="lazy" alt="tazón con 3 retratos">
+            </div>
+        </section>
+    </article>
+
+    <article class="catalog" id="bowls">
+        <h2 class="catalog__title">Tazones</h2>
+        <p class="catalog__info py-3"> Cada tazón incluye el nombre del animalito y un adorno pequeño a elección.</p>
+        <section class="catalog__elements">
+            <div class="card">
+                <p class="card__title">De 1 animalito</p>
+                <p class="card__prices m-auto">$14.000 </p>
+                <img class="card__img" src="img/products/bowl1.jpg" loading="lazy" alt="tazón con retrato">
+            </div>
+            <div class="card">
+                <p class="card__title">Con 2 animalitos</p>
+                <p class="card__prices m-auto">$19.000 </p>
+                <img class="card__img" src="img/products/bowl2.jpg" loading="lazy" alt="tazón con 2 retratos">
+            </div>
+            <div class="card">
+                <p class="card__title">Con 3 animalitos</p>
+                <p class="card__prices m-auto">$24.500 </p>
+                <img class="card__img" src="img/products/bowl3.jpg" loading="lazy" alt="tazón con 3 retratos">
+            </div>
+        </section>
+    </article>
+
+    <article class="catalog" id="keys">
+        <h2 class="catalog__title">Llaveros</h2>
+        <p class="catalog__info py-3"> Cada llavero mide 7cm de diámetro, incluye el nombre del animalito.</p>
+        <section class="catalog__elements">
+            <div class="card">
+                <p class="card__title">1 animalito</p>
+                <p class="card__prices m-auto">$9.500 </p>
+                <img class="card__img" src="img/products/key1.jpg" loading="lazy" alt="tazón con retrato">
+            </div>
+            <div class="card">
+                <p class="card__title">2 animalitos en 1 llavero</p>
+                <p class="card__prices m-auto">$12.500 </p>
+                <img class="card__img" src="img/products/key2.jpg" loading="lazy" alt="tazón con 2 retratos">
+            </div>
+        </section>
+    </article>
+
+    <section class="info" id="info">
+        <div class="info__item">
+            <h2 class="info__item--btn">Como pedir un producto</h2>
+            <div class="info__item--content">
+                <ol class="info__item--ol">
+                    <li class="info__item--list">Contáctame por Instagram.</li>
+                    <li class="info__item--list">Elige el tamaño del cuadro o modelo de tazón, pueden
+                        varíar según disponibilidad.</li>
+                    <li class="info__item--list">Envía las fotitos de referencia, de preferencia
+                        fotos sin filtros, de cerca y a la altura del animalito.</li>
+                    <li class="info__item--list">Confirmación del pedido, al ser un trabajo 100% personalizado
+                        se solicitará el <strong>pago total</strong> del valor del producto para reservar su cupo.</li>
+                </ol>
+
+                <h3 class="info__item--title">¿Con cuanto tiempo de anticipación debo pedir?</h3>
+                <p class="info__item--text">
+                    Mi método de trabajo es a través de cupos, por lo que siempre dependerá de la disponibilidad, suele
+                    variar entre 2 a 3 semanas.
+                </p>
+                <h3 class="info__item--title">¿Por qué medios se entregan los productos?</h3>
+                <ul class="info__item--ul">
+                    <li class="info__item--list">En Temuco retiro en local.</li>
+                    <li class="info__item--list">Se envía a todo Chile por Starken o Chilexpress, siempre por
+                        pagar en destino.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="info__item">
+            <h2 class="info__item--btn">Cuidados para el tazón</h2>
+            <div class="info__item--content">
+                <h3 class="info__item--title">El tazón puede ser utilizado con bebidas frías o calientes, pero se debe considerar:</h3>
+                <ul class="info__item--ul">
+                    <li class="info__item--list">Lavar suavemente la pintura
+                        con agua fría o tibia, jabón de
+                        loza y esponja.</li>
+                    <li class="info__item--list">No calentar en microondas.</li>
+                    <li class="info__item--list">No dejar la parte pintada en
+                        remojo durante horas.</li>
+                    <li class="info__item--list">No raspar la pintura con objetos
+                        duros.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer p-2" id="contact">
+        <section class="footer__brand">
+            <img src="img/tintalizulogo.png" width="200px" class="footer__brand--img" />
+        </section>
+        <section class="footer__contact">
+            <p class="footer__contact--text">
+                Tintalizú es un emprendimiento artístico pintado a mano por <strong class="strong">Liced
+                    Vargas</strong>.</p>
+            <p class="footer__contact--text py-1">
+                Envíos a todo Chile desde Temuco, haz tu consulta por instagram o correo.
+            </p>
+            <hr class="footer__contact--hr">
+            <p class="footer__contact--link">
+                <a href="https://www.instagram.com/tintalizu_arte/" class="icon"><i class="fa-brands fa-instagram"></i>
+                    tintalizu_arte</a>
+                /
+                <a href="mailto:tintalizu@gmail.com" class="icon"><i class="fa-solid fa-envelope"></i>
+                    tintalizu@gmail.com</a>
+            </p>
+        </section>
+    </footer>
+</body>
+
+</html>
